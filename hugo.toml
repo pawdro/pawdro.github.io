@@ -1,0 +1,83 @@
+baseURL = "https://pawdro.github.io/"
+# language code ["en", "zh-CN", "fr", "pl", ...]
+languageCode = "en"
+# language name ["English", "简体中文", "Français", "Polski", ...]
+languageName = "English"
+title = "Pawdro Github.io"
+theme = "LoveIt"
+publishDir = "docs"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+#googleAnalytics: UA-123-45
+
+# minify:
+  # disableXML: true
+  # minifyOutput: true
+
+# Author config
+[author]
+  name = "Paweł Drożański"
+  email = "drozanski@proton.me"
+
+[params]
+  [params.header.title]
+    # pre = "<i class='far fa-cloud fa-fw' aria-hidden='true'></i>"
+    name = "The Page"
+  [params.home]
+      [params.home.profile]
+        enable = true
+        avatarUrl = "/images/profile.png"
+        title = "Paweł Drożański's secret den"
+        subtitle = "Be the last to claim Jira tickets."
+
+  [params.social]
+    Github = "pawdro"
+    Linkedin = "paweldrozanski"
+    Email = "drozanski@proton.me"
+
+
+# Menu config
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = ""
+  [[menu.main]]
+    weight = 2
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+  [[menu.main]]
+    weight = 3
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+  [params.home.posts]
+    enable = true
+    # special amount of posts in each home posts page
+    paginate = 6
+
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    noClasses = false
