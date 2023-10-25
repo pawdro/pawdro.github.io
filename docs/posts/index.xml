@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Paweldrozanski Github.io</title>
-        <link>https://paweldrozanski.github.io/</link>
-        <description>This is my cool site</description>
+        <title>All Posts - Paweldrozanski Github.io</title>
+        <link>https://paweldrozanski.github.io/posts/</link>
+        <description>All Posts | Paweldrozanski Github.io</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>drozanski@proton.me (Paweł Drożański)</managingEditor>
-            <webMaster>drozanski@proton.me (Paweł Drożański)</webMaster><lastBuildDate>Sun, 15 Oct 2023 20:06:23 &#43;0200</lastBuildDate>
-            <atom:link href="https://paweldrozanski.github.io/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>drozanski@proton.me (Paweł Drożański)</webMaster><lastBuildDate>Sun, 15 Oct 2023 20:06:23 &#43;0200</lastBuildDate><atom:link href="https://paweldrozanski.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Hello_world</title>
     <link>https://paweldrozanski.github.io/posts/hello_world/</link>
     <pubDate>Sun, 15 Oct 2023 20:06:23 &#43;0200</pubDate>

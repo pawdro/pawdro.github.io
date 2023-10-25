@@ -2,6 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://pawdro.github.io/categories/</loc></url><url>
-            <loc>https://pawdro.github.io/</loc></url><url>
-            <loc>https://pawdro.github.io/tags/</loc></url></urlset>
+            <loc>https://paweldrozanski.github.io/posts/hello_world/</loc><lastmod>2023-10-15T20:06:23&#43;02:00</lastmod></url><url>
+            <loc>https://paweldrozanski.github.io/</loc><lastmod>2023-10-15T20:06:23&#43;02:00</lastmod></url><url>
+            <loc>https://paweldrozanski.github.io/posts/</loc><lastmod>2023-10-15T20:06:23&#43;02:00</lastmod></url><url>
+            <loc>https://paweldrozanski.github.io/categories/</loc></url><url>
+            <loc>https://paweldrozanski.github.io/tags/</loc></url></urlset>

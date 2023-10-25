@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://pawdro.github.io/sitemap.xml
+Sitemap: https://paweldrozanski.github.io/sitemap.xml
