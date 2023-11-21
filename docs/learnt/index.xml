@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learnts on Paweldrozanski Github.io</title>
+    <link>https://paweldrozanski.github.io/learnt/</link>
+    <description>Recent content in Learnts on Paweldrozanski Github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>drozanski@proton.me (Paweł Drożański)</managingEditor>
+    <webMaster>drozanski@proton.me (Paweł Drożański)</webMaster>
+    <lastBuildDate>Tue, 21 Nov 2023 10:15:16 +0100</lastBuildDate><atom:link href="https://paweldrozanski.github.io/learnt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding TypeScript | udemy.com</title>
+      <link>https://paweldrozanski.github.io/learnt/understanding-typescript/</link>
+      <pubDate>Tue, 21 Nov 2023 10:15:16 +0100</pubDate>
+      <author>drozanski@proton.me (Paweł Drożański)</author>
+      <guid>https://paweldrozanski.github.io/learnt/understanding-typescript/</guid>
+      <description> A certificate (image) </description>
+    </item>
+    
+    <item>
+      <title>NestJS Fundamentals | learn.nestjs.com</title>
+      <link>https://paweldrozanski.github.io/learnt/nestjs-fundamentals/</link>
+      <pubDate>Tue, 21 Nov 2023 09:53:49 +0100</pubDate>
+      <author>drozanski@proton.me (Paweł Drożański)</author>
+      <guid>https://paweldrozanski.github.io/learnt/nestjs-fundamentals/</guid>
+      <description> A certificate (image) </description>
+    </item>
+    
+  </channel>
+</rss>

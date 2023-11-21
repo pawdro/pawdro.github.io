@@ -4,7 +4,9 @@ languageCode = "en"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 languageName = "English"
 title = "Paweldrozanski Github.io"
-theme = "LoveIt"
+theme = ["LoveIt", "hugo-embed-pdf-shortcode"]
+enableInlineShortcodes = true
+
 publishDir = "docs"
 
 enableRobotsTXT = true
@@ -36,21 +38,37 @@ buildExpired = false
     url = "/posts/"
     # title will be shown when you hover on this menu link
     title = ""
+  # [[menu.main]]
+  #   weight = 2
+  #   identifier = "tags"
+  #   pre = ""
+  #   post = ""
+  #   name = "Tags"
+  #   url = "/tags/"
+  #   title = ""
+  # [[menu.main]]
+  #   weight = 3
+  #   identifier = "categories"
+  #   pre = ""
+  #   post = ""
+  #   name = "Categories"
+  #   url = "/categories/"
+  #   title = ""
   [[menu.main]]
     weight = 2
-    identifier = "tags"
+    identifier = "I learnt"
     pre = ""
     post = ""
-    name = "Tags"
-    url = "/tags/"
+    name = "I learnt"
+    url = "/learnt/"
     title = ""
   [[menu.main]]
     weight = 3
-    identifier = "categories"
+    identifier = "I read"
     pre = ""
     post = ""
-    name = "Categories"
-    url = "/categories/"
+    name = "I read"
+    url = "/read/"
     title = ""
 
 # Markup related configuration in Hugo
@@ -74,6 +92,20 @@ buildExpired = false
         enable = true
         # special amount of posts in each home posts page
         paginate = 6
+        # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+        # default behavior when you don't set "hiddenFromHomePage" in front matter
+        defaultHiddenFromHomePage = false
+    [params.home.read]
+        enable = true
+        # special amount of posts in each home posts page
+        # paginate = 6
+        # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
+        # default behavior when you don't set "hiddenFromHomePage" in front matter
+        defaultHiddenFromHomePage = false
+    [params.home.learnt]
+        enable = true
+        # special amount of posts in each home posts page
+        # paginate = 6
         # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
         # default behavior when you don't set "hiddenFromHomePage" in front matter
         defaultHiddenFromHomePage = false

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reads on Paweldrozanski Github.io</title>
+    <link>https://paweldrozanski.github.io/read/</link>
+    <description>Recent content in Reads on Paweldrozanski Github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>drozanski@proton.me (Paweł Drożański)</managingEditor>
+    <webMaster>drozanski@proton.me (Paweł Drożański)</webMaster>
+    <lastBuildDate>Tue, 21 Nov 2023 09:52:47 +0100</lastBuildDate><atom:link href="https://paweldrozanski.github.io/read/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Technical Leadership. Od eksperta do lidera, wydanie 2 poszerzone</title>
+      <link>https://paweldrozanski.github.io/read/technical-leadership/</link>
+      <pubDate>Tue, 21 Nov 2023 09:52:47 +0100</pubDate>
+      <author>drozanski@proton.me (Paweł Drożański)</author>
+      <guid>https://paweldrozanski.github.io/read/technical-leadership/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
